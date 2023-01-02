@@ -1,0 +1,120 @@
+.p-Home.NavLinks a , .p-Home.dcv a , .p-Home.logo_flex a , .p-Home.Flex193 a{
+    text-decoration: none;
+    color: black;
+}
+
+.p-Home.contactLinks a , .p-Home.BlogsBody a{
+    text-decoration: none;
+    color: white;
+}
+
+.p-Home.footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+.p-Home.footer a:hover{
+    text-decoration: none;
+    color: #c7c4c4;
+}
+
+.p-Home.TextBox7 , .p-Home.TextBox9 , .p-Home.TextBox10, .p-Home.TextBox70 , .p-Home.projHead , .p-Home.ProdDes , .p-Home.testiheading , .p-Home.faqHeading , .p-Home.TextBox116 , .p-Home.projHead1 , .p-Home.projHead2 , .p-Home.projHead3{
+    background: linear-gradient(to right, #a940df, #ff6b08, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.p-Home.LeftHeading{
+    top:25px;
+}
+
+.p-Home.Image51{
+    opacity:0.4;
+}
+
+.p-Home.TextBox105{
+    color: rgb(109, 108, 108);
+}
+
+.p-Home.Flex193{
+    position: fixed ;
+    z-index: 100  ;
+    top: auto  ;
+    right: 12px  ;
+    bottom: 12px  ;
+    left: auto  ;
+    color: #AAADB0  ;
+    background-color: #fff  ;
+    border-radius: 3px  ;
+    padding: 6px 8px 6px 6px  ;
+    transform: none  ;
+    margin: 0  ;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+    cursor: pointer; 
+}
+
+.p-Home.upBtn , .p-Home.PupBtn{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+.p-Home.upBtn:hover , .p-Home.PupBtn:hover{
+    transform: translate3d(7px, 7px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.p-Home.dwnBtn , .p-Home.Pdwnbtn{
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    transform: translate(7px, 7px);
+}
+
+.p-Home.TalkNow , .p-Home.ViewProj{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    opacity: 0;
+   
+}
+
+.p-Home.pImage1 , .p-Home.pImage2 , .p-Home.pImage3{
+    object-fit: cover;
+}
+
+/* .p-Home.pImage1:hover , .p-Home.pImage2:hover , .p-Home.pImage3:hover{
+    transform:translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}  */
+
+
+.p-Home.Flex198 , .p-Home.Flex213 , .p-Home.Flex217{
+    background-color: white;
+}
+
+.p-Home.Flex197 a{
+    text-decoration: none;
+    color: black; 
+}
+
+.p-Home.Blogs{
+    margin-top: -200px;
+}
+
+  .p-Home.projImgHolder1, .p-Home.projImgHolder2 , .p-Home.projImgHolder3 {
+    top: 0;
+    left: 0;
+  }
+
+  .p-Home.pImage1 ,   .p-Home.pImage2 ,   .p-Home.pImage3 {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+  }
+
+  .p-Home.projImgHolder1:hover .p-Home.pImage1 , .p-Home.projImgHolder2:hover .p-Home.pImage2 ,.p-Home.projImgHolder3:hover .p-Home.pImage3 {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  } 
